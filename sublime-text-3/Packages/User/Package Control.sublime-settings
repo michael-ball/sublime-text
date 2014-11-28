@@ -1,0 +1,30 @@
+{
+	"installed_packages":
+	[
+		"AngularJS",
+		"Base16 Color Schemes",
+		"CodeFormatter",
+		"ColorPicker",
+		"CTags",
+		"DevDocs",
+		"GitGutter",
+		"Grunt",
+		"jQuery",
+		"PHP-Twig",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
+		"SublimeLinter-rubocop",
+		"SublimeLinter-ruby",
+		"tern_for_sublime",
+		"Theme - Haft Lang",
+		"Theme - Spacefunk",
+		"Theme - Spacegray",
+		"VAlign"
+	]
+}

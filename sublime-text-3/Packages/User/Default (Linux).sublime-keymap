@@ -1,0 +1,13 @@
+[
+	{ "keys": ["ctrl+shift+d"], "command": "dev_docs"},
+	{ "keys": ["ctrl+shift+m"], "command": "toggle_menu" },
+	{ "keys": ["ctrl+\\"], "command": "valign" },
+	{
+    "keys": ["ctrl+space"], 
+    	"command": "tern_select_variable",
+    	"context": [
+      		{"key": "selector", "operand": "source.js"}
+    	]
+  	},
+  { "keys": ["alt+shift+f"], "command": "code_formatter"}		
+]
