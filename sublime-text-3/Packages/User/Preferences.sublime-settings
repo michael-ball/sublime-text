@@ -12,8 +12,9 @@
 		}
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/base16-default.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/base16-eighties.dark (SL).tmTheme",
 	"dictionary": "Packages/Language - English/en_GB.dic",
+	"draw_indent_guides": true,
 	"file_exclude_patterns":
 	[
 		"tags",
