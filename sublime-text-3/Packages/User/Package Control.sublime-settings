@@ -18,6 +18,7 @@
 		"SublimeLinter",
 		"SublimeLinter-csslint",
 		"SublimeLinter-jshint",
+		"SublimeLinter-pep8",
 		"SublimeLinter-php",
 		"SublimeLinter-phpcs",
 		"SublimeLinter-pyflakes",
