@@ -17,6 +17,7 @@
 		"SublimeGit",
 		"SublimeLinter",
 		"SublimeLinter-csslint",
+		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
 		"SublimeLinter-pep8",
 		"SublimeLinter-php",
