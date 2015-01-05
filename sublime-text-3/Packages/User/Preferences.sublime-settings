@@ -22,8 +22,8 @@
 		"GRTAGS",
 		"GTAGS"
 	],
-	"font_face": "Input Mono Narrow",
-	"font_size": 9,
+	"font_face": "Input Mono Condensed",
+	"font_size": 8,
 	"ignored_packages":
 	[
 		"Vintage"
