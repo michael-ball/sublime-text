@@ -40,6 +40,10 @@ a JavaScript program), and install the depedencies of the package.
     cd tern_for_sublime
     npm install
 
+On OS X, you might also need to install the [Fix Mac
+Path](https://github.com/int3h/SublimeFixMacPath) Sublime plugin to
+help ST actually find your node binary.
+
 You should be all set now.
 
 ## Configuration
@@ -57,6 +61,17 @@ Unfortunately, the status bar is tiny and Sublime Text 2 provides no saner way t
 __panel__ - When panel is enabled, a new panel window opens and will list
 the arguments for the function call that the cursor is inside.  
 __tooltip__ - (only available on SublimeText build 3070+) When tooltip is enabled, a tooltip opens and will list the arguments for the function call that the cursor is inside, as well as, a clickable URL (if available) to the docs and a snippet of documentation (if available).
+
+`tern_argument_completion` (boolean, default to false)  
+Auto complete function arguments (similar to eclipse).  
+e.g. `document.addEv` will show completion for `addEventListener (fn/2)` which completes to
+`document.addEventListener(type, listener)`. The first argument will be selected.
+Use `tab` to select the next argument.
+
+Completions for smaller number arguments are supported.  
+e.g. in the extreme case, `THREE.SphereGeometry` has 7 arguments, most of which are optional. `THREE.SphG`
+will show completions for `SphereGeometry (fn/7)`, `SphereGeometry (fn/6)`, ... , `SphereGeometry (fn/0)`.
+Typing 3 (i.e. `THREE.SphG3`) will select the completion `THREE.SphereGeometry (fn/3)` which completes to `THREE.SphereGeometry(a, b, c)`.
 
 
 `tern_command` (list of strings) The command to execute to start a
